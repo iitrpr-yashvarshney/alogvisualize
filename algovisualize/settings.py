@@ -56,7 +56,7 @@ ROOT_URLCONF = 'algovisualize.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'algovisualize\\templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'algovisualize\\templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,7 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = 'algovisualize/static/'
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'algovisualize\\static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'algovisualize\\static')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR,'assets')
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
